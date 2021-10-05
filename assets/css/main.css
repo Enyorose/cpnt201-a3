@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: whitesmoke;
+}
+main{
+  margin: 0 auto;
+}
+svg{
+  max-width: 300px;
+  height: auto;
+}
+/***logo1***/
+.round-arrows{
+  fill: #20639b;
+}
+.little-lines{
+  fill: #f6d55c;
+}
+.border-lines {
+  fill: #173f5f;
+}
+
+.cool-logo {
+  filter: grayscale(80%);
+}
+.cool-logo:hover {
+  filter: grayscale(0%);
+}
+/***logo2***/
+.round-arrows2 {
+  fill: #58508d;
+}
+.little-lines2 {
+  fill: #bc5090;
+}
+.border-lines2 {
+  fill: #ffa602;
+}
+.cool-logo2:hover {
+  filter: hue-rotate(90deg);
+}
+/***logo3***/
+.round-arrows3 {
+  fill: #6d3737;
+}
+.little-lines3 {
+  fill: #243342;
+}
+.border-lines3 {
+  fill: #cd7e54;
+}
+.cool-logo3:hover {
+  filter: blur(5px);
+}
